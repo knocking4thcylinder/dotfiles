@@ -1,0 +1,13 @@
+import = [
+    "~/.config/alacritty/themes/rose-pine.toml"
+]
+
+[font]
+normal = { family = "JetBrainsMono NF" }
+size = 10
+
+[window]
+opacity = 0.9
+
+[shell]
+program = "/bin/fish"
