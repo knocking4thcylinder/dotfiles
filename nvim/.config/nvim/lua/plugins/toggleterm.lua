@@ -13,7 +13,7 @@ return {
 		end
 
 		require("toggleterm").setup({
-			shell = "/bin/fish",
+			shell = "/bin/zsh",
 		})
 		vim.keymap.set("n", "<C-\\>", "<CMD>lua _Term_toggle()<CR>")
 	end,
