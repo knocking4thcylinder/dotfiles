@@ -33,7 +33,8 @@
         "temperature",
         "custom/keyboard-layout",
         //"sway/language",
-        "pulseaudio",
+        //"custom/pipewire",
+        "pipewire",
         "battery",
         "tray",
         //"clock#date",
@@ -100,7 +101,7 @@
     "custom/keyboard-layout": {
         "return-type": "json",
         "exec": "hypr-kbd-layout_1.1.0_linux_amd64", 
-        "format": "KB: {}"
+        "format": "  {}"
     },
     "memory": {
         "interval": 5,
@@ -143,6 +144,14 @@
 //            "focused": "",
 //            "default": ""
 //        }
+    },
+
+    "custom/pipewire": {
+        "tooltip": false,
+        "max-length": 6,
+        "signal": 8,
+        "restart-interval": 0,
+        "exec": "$HOME/.config/waybar/scripts/pipewire.sh"
     },
 
     "pulseaudio": {
