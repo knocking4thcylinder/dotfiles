@@ -100,7 +100,7 @@
     "custom/keyboard-layout": {
         "return-type": "json",
         "exec": "hypr-kbd-layout_1.1.0_linux_amd64", 
-        "format": "KB: {}"
+        "format": "  {}"
     },
     "memory": {
         "interval": 5,
