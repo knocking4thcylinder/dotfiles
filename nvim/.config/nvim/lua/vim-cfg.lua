@@ -6,7 +6,6 @@ vim.cmd("set termguicolors")
 vim.cmd("set relativenumber")
 vim.cmd("set nu rnu")
 vim.cmd("set clipboard+=unnamedplus")
-vim.g.mapleader = " "
 -- vim.cmd([[nnoremap <Left> :echo "No left for you!"<CR>]])
 -- vim.cmd([[vnoremap <Left> :<C-u>echo "No left for you!"<CR>]])
 -- vim.cmd([[inoremap <Left> <C-o>:echo "No left for you!"<CR>]])
